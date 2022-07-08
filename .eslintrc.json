@@ -25,6 +25,9 @@
         "no-param-reassign": "off",
         "react/jsx-props-no-spreading": "off",
         "react/require-default-props": "off",
+        "no-underscore-dangle": "off",
+        "lines-between-class-members": "off",
+        "consistent-return": "off",
         "react/jsx-filename-extension": [
             1,
             {
