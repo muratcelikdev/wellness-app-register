@@ -26,3 +26,9 @@ export const InputWrapper = styled.div`
   flex-direction: column;
   gap: 11px;
 `;
+
+export const MultiInputWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 47px;
+`;
