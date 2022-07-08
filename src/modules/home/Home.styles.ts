@@ -19,3 +19,10 @@ export const Form = styled.form`
 export const Heading = styled(Title)`
   width: 375px;
 `;
+
+export const InputWrapper = styled.div`
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+`;
