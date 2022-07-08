@@ -6,5 +6,9 @@
   "general_fitnessGoal_title": "What is your fitness goal?",
   "general_personalInformation_title": "Final step. Complete your registration",
   "general_yourWeight_placeholder": "Your Weight",
-  "general_yourHeight_placeholder": "Your Height"
+  "general_yourHeight_placeholder": "Your Height",
+  "general_name_placeholder": "Name",
+  "general_surname_placeholder": "Surname",
+  "general_email_placeholder": "Email",
+  "general_password_placeholder": "Password"
 }
