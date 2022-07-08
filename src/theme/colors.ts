@@ -10,4 +10,6 @@ export const colors = {
     light: '##5D6A6D',
   },
   beige: '#F6F8F9',
+  purple: '#9B9BEB',
+  grey: '#e3e8e9',
 };

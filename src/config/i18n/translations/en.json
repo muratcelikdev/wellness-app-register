@@ -10,5 +10,8 @@
   "general_name_placeholder": "Name",
   "general_surname_placeholder": "Surname",
   "general_email_placeholder": "Email",
-  "general_password_placeholder": "Password"
+  "general_password_placeholder": "Password",
+  "general_loseWeight_label": "Lose Weight",
+  "general_buildMuscle_label": "Build Muscle",
+  "general_stayHealthy_label": "Stay Healthy"
 }

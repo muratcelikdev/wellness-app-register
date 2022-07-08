@@ -32,3 +32,55 @@ export const MultiInputWrapper = styled.div`
   flex-direction: column;
   gap: 47px;
 `;
+
+export const RadioItem = styled.div`
+  width: 360px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  position: relative;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid ${({ theme }) => theme.colors.purple};
+  }
+`;
+
+export const RadioGroup = styled.div`
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: ${({ theme }) => theme.colors.white};
+`;
+
+export const Icon = styled.img`
+  margin-right: 12px;
+`;
+
+export const Radio = styled.input.attrs({ type: 'radio' })`
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    right: 20px;
+    border: 1px solid ${({ theme }) => theme.colors.grey};
+    border-radius: 50%;
+    transform: translateY(-50%);
+  }
+
+  &:checked {
+    &::after {
+      background-color: 1px solid ${({ theme }) => theme.colors.white};
+      border: 6.5px solid ${({ theme }) => theme.colors.primary.dark};
+    }
+  }
+`;
